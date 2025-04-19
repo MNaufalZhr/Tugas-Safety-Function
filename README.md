@@ -5,7 +5,7 @@ Proyek ini bertujuan untuk meningkatkan kemanan dan efisiensi kereta modern, dro
 2. Muhammad Naufal Zuhair (2042231005)
 3. Daffa Naufal Wahyuaji (2042231081)
 4. Ahmad Radhy (Supervisor)
-#Komponen Utama
+# Komponen Utama
 1. Lidar Velodyne vlp-16 (
 2. Kamera Thermal Flir Lepton 3.5 (
 3. Motor Servo (
