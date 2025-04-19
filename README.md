@@ -19,6 +19,7 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern, dr
 4. Servo motor digerakkan dengan PWM sesuai sudut yang dibutuhkan.
 5. Proses ini berulang terus-menerus secara real-time.
 # Ringkasan Alur Sistem
+```
 [LIDAR] --(data jarak via UART)--> [STM32]
      |
      |--> [Parse data] --> [Cek kondisi]
