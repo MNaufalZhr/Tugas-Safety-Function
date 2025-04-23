@@ -1,5 +1,5 @@
 # RailSight : Drone Technology for Obstacle Avoidance, Collision, Detection, and Smart Brake Management in Modern Tranin Systems
-Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern, drone ini dirancang untuk memadamkan api jika kereta mengalami kecelakaan dan drone memiliki sistem keamanan berupa shield akan aktif ketika api mendekati drone dengan jarak 5 meter, lalu drone akan kembali membuka shield nya ketika tempuh jarak normal yaitu 10 meter.
+Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Drone yang dikembangkan memiliki kemampuan membawa air dalam bentuk gelembung (bubble) untuk memadamkan api apabila terjadi kecelakaan pada kereta. Selain itu, drone dilengkapi dengan sistem keamanan berupa perisai (shield) yang akan aktif secara otomatis ketika api terdeteksi dalam jarak 5 meter. Setelah drone menjauh dan mencapai jarak aman, yaitu 10 meter, perisai akan kembali terbuka secara otomatis.
 # Authors
 1. Ahmad Rafli Al Adzani (2042231001)
 2. Muhammad Naufal Zuhair (2042231005)
@@ -29,3 +29,58 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern, dr
      |--> [Parse data] --> [Cek kondisi]
                           |
                           |--> [Gerakkan Servo (Tutup/Buka Shield)]
+**# FlowChart Railsight**
+
++---------------------------+
+|           Start           |
++---------------------------+
+             |
+             v
++---------------------------+
+|  Deteksi Kecelakaan Kereta |
++---------------------------+
+             |
+             v
++---------------------------+
+|      Aktifkan Drone       |
++---------------------------+
+             |
+             v
++---------------------------+
+| Bawa Air dalam Gelembung |
++---------------------------+
+             |
+             v
++---------------------------+
+|     Deteksi Jarak Api     |
++---------------------------+
+             |
+             v
++-------------------------------+
+| Api dalam Jarak ≤ 5 Meter?   |
++-------------------------------+
+         |               |
+        Ya              Tidak
+         |               |
+         v               v
++----------------+   +------------------------+
+| Aktifkan Shield|   | Shield Tetap Terbuka  |
++----------------+   +------------------------+
+         \               /
+          \             /
+           v           v
++-------------------------------+
+|     Api Sudah Padam?         |
++-------------------------------+
+         |               |
+        Ya              Tidak
+         |               |
+         v               v
++------------------+  +----------------------+
+| Kembali ke Basis |  | Lanjutkan Pemadaman |
++------------------+  +----------------------+
+         |
+         v
++---------------------------+
+|            End            |
++---------------------------+
