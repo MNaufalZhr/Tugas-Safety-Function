@@ -9,7 +9,7 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Dr
 1. Lidar Velodyne vlp-16 (Sensor LIDAR mengukur jarak ke suatu objek)
 2. Motor Servo (Menggerakkan shield dengan putaran sudut)
 3. Shield / Tameng (Guna Menutup Drone jika api menyambar)
-4. Sensor thermal di kode tersebut digunakan untuk mengukur suhu. Jika suhu lebih dari 50°C dan jarak objek kurang dari 2000 (mungkin dalam mm atau cm), servo motor akan bergerak ke 90 derajat dan LED akan menyala. Jika tidak, motor akan kembali ke posisi 0 derajat dan LED mati..
+4. Sensor thermal digunakan untuk mengukur suhu. Jika suhu lebih dari 50°C
 5. Sensor suhu / thermal camera (contoh: FLIR Lepton) – untuk mendeteksi overheat atau anomali termal.
 6. Sensor gas/asap (contoh: MQ-135) – untuk mendeteksi adanya kebocoran gas atau asap di area sensitif.
 7. IMU (Inertial Measurement Unit) – untuk stabilisasi dan pengukuran gerakan drone.
@@ -21,7 +21,8 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Dr
   -Jika objek > 5 meter tapi ≤ 10 meter → shield dibuka (servo ke 0°).
   -Jika objek > 10 meter → shield tetap terbuka.
 4. Servo motor digerakkan dengan PWM sesuai sudut yang dibutuhkan.
-5. Proses ini berulang terus-menerus secara real-time.
+5. LED Red > Nyala (bahaya) < Mati (Aman)
+7. Proses ini berulang terus-menerus secara real-time.
 # Ringkasan Alur Sistem
 ```
 [LIDAR] --(data jarak via UART)--> [STM32]
