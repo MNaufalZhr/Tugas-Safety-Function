@@ -10,9 +10,8 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Dr
 2. Motor Servo (Menggerakkan shield dengan putaran sudut)
 3. Shield / Tameng (Guna Menutup Drone jika api menyambar)
 4. Sensor thermal digunakan untuk mengukur suhu. Jika suhu lebih dari 50°C
-5. Sensor suhu / thermal camera (contoh: FLIR Lepton) – untuk mendeteksi overheat atau anomali termal.
-6. Sensor gas/asap (contoh: MQ-135) – untuk mendeteksi adanya kebocoran gas atau asap di area sensitif.
-7. IMU (Inertial Measurement Unit) – untuk stabilisasi dan pengukuran gerakan drone.
+5. . Sensor gas/asap (contoh: MQ-135) – untuk mendeteksi adanya kebocoran gas atau asap di area sensitif.
+6. . IMU (Inertial Measurement Unit) – untuk stabilisasi dan pengukuran gerakan drone.
 # Cara Kerja Sistem
 1. Sensor LIDAR mengukur jarak objek di depan dan mengirim data via UART ke STM32.
 2. STM32 menerima data (contoh: DIST:7.5) dan mengubahnya menjadi angka jarak (dalam meter).
