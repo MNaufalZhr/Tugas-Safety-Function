@@ -16,9 +16,8 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Dr
 1. Sensor LIDAR mengukur jarak objek di depan dan mengirim data via UART ke STM32.
 2. STM32 menerima data (contoh: DIST:7.5) dan mengubahnya menjadi angka jarak (dalam meter).
 3. Berdasarkan jarak tersebut:
-  -Jika objek ≤ 5 meter → shield ditutup (servo ke 90°).
-  -Jika objek > 5 meter tapi ≤ 10 meter → shield dibuka (servo ke 0°).
-  -Jika objek > 10 meter → shield tetap terbuka.
+  -Jika objek ≤ 20 cm dan suhu ≤ 50 → shield ditutup (servo ke 90°).
+  -Jika objek > 20 cm dan suhu > 50 → shield tetap terbuka.
 4. Servo motor digerakkan dengan PWM sesuai sudut yang dibutuhkan.
 5. LED Red > Nyala (bahaya) < Mati (Aman)
 7. Proses ini berulang terus-menerus secara real-time.
