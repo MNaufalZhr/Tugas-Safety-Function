@@ -38,58 +38,6 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Dr
                           |
                           |--> [Gerakkan Servo (Tutup/Buka Shield)]
 # FlowChart Railsight
+![image](https://github.com/user-attachments/assets/4a11fa90-d484-4b43-9592-c8be58419a5f)
 
-+---------------------------+
-|           Start           |
-+---------------------------+
-             |
-             v
-+---------------------------+
-|  Deteksi Kecelakaan Kereta |
-+---------------------------+
-             |
-             v
-+---------------------------+
-|      Aktifkan Drone       |
-+---------------------------+
-             |
-             v
-+---------------------------+
-| Bawa Air dalam Gelembung |
-+---------------------------+
-             |
-             v
-+---------------------------+
-|     Deteksi Jarak Api     |
-+---------------------------+
-             |
-             v
-+-------------------------------+
-| Api dalam Jarak ≤ 20 cm Suhu < 50?|
-+-------------------------------+
-         |               |
-        Ya              Tidak
-         |               |
-         v               v
-+----------------+   +------------------------+
-| Aktifkan Shield|   | Shield Tetap Terbuka  |
-+----------------+   +------------------------+
-         \               /
-          \             /
-           v           v
-+-------------------------------+
-|     Api Sudah Padam?         |
-+-------------------------------+
-         |               |
-        Ya              Tidak
-         |               |
-         v               v
-+------------------+  +----------------------+
-| Kembali ke Basis |  | Lanjutkan Pemadaman |
-+------------------+  +----------------------+
-         |
-         v
-+---------------------------+
-|            End            |
-+---------------------------+
 ```
