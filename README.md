@@ -1,5 +1,5 @@
 # RailSight : Drone Technology for Obstacle Avoidance, Collision, Detection, and Smart Brake Management in Modern Tranin Systems
-Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Drone yang dikembangkan memiliki kemampuan membawa air dalam bentuk gelembung (bubble) untuk memadamkan api apabila terjadi kecelakaan pada kereta. Selain itu, drone dilengkapi dengan sistem keamanan berupa perisai (shield) yang akan aktif secara otomatis ketika api terdeteksi dalam jarak 5 meter. Setelah drone menjauh dan mencapai jarak aman, yaitu 10 meter, perisai akan kembali terbuka secara otomatis.
+Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Drone yang dikembangkan memiliki kemampuan membawa air dalam bentuk gelembung (bubble) untuk memadamkan api apabila terjadi kecelakaan pada kereta. Selain itu, drone dilengkapi dengan sistem keamanan berupa perisai (shield) yang akan aktif secara otomatis ketika api terdeteksi dalam jarak 20 cm dan suhu < 50. Setelah drone menjauh dan mencapai jarak aman, yaitu 20 cm dan suhu > 50, perisai akan kembali terbuka secara otomatis.
 # Authors
 1. Ahmad Rafli Al Adzani (2042231001)
 2. Muhammad Naufal Zuhair (2042231005)
