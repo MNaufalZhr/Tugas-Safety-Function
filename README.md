@@ -31,13 +31,13 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Dr
 ![Screenshot (41)](https://github.com/user-attachments/assets/b1b0a792-df17-4007-9e6d-575d74e30152)
 
 # Ringkasan Alur System
-```
+
 [LIDAR] --(data jarak via UART)--> [STM32]
      |
      |--> [Parse data] --> [Cek kondisi]
                           |
                           |--> [Gerakkan Servo (Tutup/Buka Shield)]
-**# FlowChart Railsight**
+# FlowChart Railsight
 
 +---------------------------+
 |           Start           |
@@ -92,3 +92,4 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Dr
 +---------------------------+
 |            End            |
 +---------------------------+
+```
