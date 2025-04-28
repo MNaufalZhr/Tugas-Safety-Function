@@ -65,7 +65,7 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Dr
              |
              v
 +-------------------------------+
-| Api dalam Jarak ≤ 5 Meter?   |
+| Api dalam Jarak ≤ 20 cm Suhu < 50?|
 +-------------------------------+
          |               |
         Ya              Tidak
