@@ -23,9 +23,9 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Dr
 7. Proses ini berulang terus-menerus secara real-time.
 
 # Tools
-1.STM32CUBE
-2.KeilUvision5
-3.MinGW32 (Testing)
+1. STM32CUBE
+2. Keil uVison 5
+3. MinGW (Testng)
 
 #Hasil Testing
 ![Screenshot (41)](https://github.com/user-attachments/assets/b1b0a792-df17-4007-9e6d-575d74e30152)
