@@ -22,7 +22,11 @@ Proyek ini bertujuan untuk meningkatkan keamanan dan efisiensi kereta modern. Dr
 4. Servo motor digerakkan dengan PWM sesuai sudut yang dibutuhkan.
 5. LED Red > Nyala (bahaya) < Mati (Aman)
 7. Proses ini berulang terus-menerus secara real-time.
-# Ringkasan Alur Sistem
+
+#Hasil Testing
+![Screenshot (41)](https://github.com/user-attachments/assets/b1b0a792-df17-4007-9e6d-575d74e30152)
+
+#Ringkasan Alur System
 ```
 [LIDAR] --(data jarak via UART)--> [STM32]
      |
